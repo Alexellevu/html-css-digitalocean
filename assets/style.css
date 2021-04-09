@@ -1,5 +1,41 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 .logo{
     height: 35px;
-    width: 150px;
 }
 
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav li,a{
+    list-style: none;
+    display: inline;
+    margin:0 5px;
+    font-size: 14px;
+    color:#1C325F;
+    text-decoration: none;
+}
+
+li i{
+    margin-left: 2px;
+}
+
+#sign_up{
+    border: 2px solid rgb(91, 101, 194);
+    padding:4px 14px;
+    border-radius: 5px;
+    color:rgb(89, 98, 179);;
+}
+
+@media  screen and (max-width:768px) {
+    nav ul {
+        display:none;
+    }
+}
