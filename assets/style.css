@@ -1,9 +1,10 @@
+/* font */
 * {
     font-family: 'Roboto', sans-serif;
 }
-.logo{
-    height: 35px;
-}
+
+
+/* nav bar iniziale */
 
 nav{
     display: flex;
@@ -12,6 +13,10 @@ nav{
     justify-content: space-between;
     align-items: center;
 
+}
+
+.logo{
+    height: 35px;
 }
 
 nav li,a{
@@ -31,11 +36,62 @@ li i{
     border: 2px solid rgb(91, 101, 194);
     padding:4px 14px;
     border-radius: 5px;
-    color:rgb(89, 98, 179);;
+    color:rgb(89, 98, 179);
 }
 
+/* set nav bar desktop */
 @media  screen and (max-width:768px) {
     nav ul {
         display:none;
     }
 }
+
+.jumbotron{
+    background-image:url(/digital_ocean/img/bg-banner-home.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.presentazione{
+    color:white;
+    margin:50px auto;
+}
+
+.presentazione h1 {
+    font-size: 60px;
+}
+.presentazione p{
+    font-size: 20px;
+}
+
+.registrazione{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px 5px;
+}
+
+.registrazione h2{
+    color:#1C325F;
+    font-size: 32px;
+    font-weight:normal;
+}
+.registrazione h3{
+    color:rgb(89, 98, 179) ;
+    font-size: 30px;
+}
+
+.casella{
+    width: 100%;
+    height: 35px;
+    border:0,8px;
+    margin:5px 1px;
+    border-style:solid;
+    border-radius: 6px;
+    padding: 2px 3px;
+}
+
