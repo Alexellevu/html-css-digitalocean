@@ -46,20 +46,22 @@ li i{
 }
 
 /* set nav bar desktop */
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:767px) {
     nav ul {
         display:none;
     }
 }
 
+/* jumbotron con immagine di sfondo */
 .jumbotron{
     background-image:url(/digital_ocean/img/bg-banner-home.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height: 420px;
+    
     margin-top:12px;
 }
 
+/* presentazione sito, titolo e paragrafo */
 .presentazione{
     color:white;
     margin:50px auto;
@@ -72,10 +74,9 @@ li i{
     font-size: 20px;
 }
 
+/* blocco per la registrazione utente */
 .registrazione{
-   
-   
-    background-color: white;
+   background-color: white;
     margin-top: 40px;
     border-radius: 8px;
     text-align: center;
@@ -93,7 +94,7 @@ li i{
     color:rgb(89, 98, 179) ;
     font-size: 30px;
 }
-
+/* caselle inserimento mail e password */
 .casella{
     width: 100%;
     height: 35px;
@@ -103,7 +104,7 @@ li i{
     border-radius: 6px;
     padding: 2px 3px;
 }
-
+/* pulsanti */
 .account_botton{
     height: 35px;
     margin:2px;
@@ -139,4 +140,30 @@ li i{
 .registrazione >span> a{
     text-decoration: underline;
     color:rgb(60, 136, 180);
+}
+
+/* partners */
+.partners_block{
+    
+    width: 100%;
+    background-color:rgb(233, 216, 216);
+    text-align: center;
+}
+
+.partners_block h5{
+    text-transform: uppercase;
+    color: rgb(78, 78, 218);
+    padding-top: 40px;
+}
+
+.partners img{
+    width: 100px;
+    
+}
+.partners li{
+    list-style: none;
+    display: inline;
+}
+.partners h6, i{
+    color:rgb(78, 78, 218);
 }
