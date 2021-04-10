@@ -3,6 +3,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* nav bar iniziale */
 
@@ -12,6 +17,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+   
 
 }
 
@@ -33,7 +39,7 @@ li i{
 }
 
 #sign_up{
-    border: 2px solid rgb(91, 101, 194);
+    border: 1px solid rgb(91, 101, 194);
     padding:4px 14px;
     border-radius: 5px;
     color:rgb(89, 98, 179);
@@ -50,7 +56,8 @@ li i{
     background-image:url(/digital_ocean/img/bg-banner-home.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 420px;
+    margin-top:12px;
 }
 
 .presentazione{
@@ -66,13 +73,15 @@ li i{
 }
 
 .registrazione{
-    height: 300px;
-    width: 100%;
+   
+   
     background-color: white;
     margin-top: 40px;
     border-radius: 8px;
     text-align: center;
     padding: 25px 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .registrazione h2{
@@ -95,3 +104,39 @@ li i{
     padding: 2px 3px;
 }
 
+.account_botton{
+    height: 35px;
+    margin:2px;
+    border-radius:6px;
+    padding:10px;
+    background-color: rgb(78, 78, 218);
+    color: white;
+}
+
+.sign_up{
+    color:#1C325F;
+    box-shadow:2px 2px lightgray;
+    border-radius: 6px;
+    height: 35px;
+    padding: 10px 25px 5px 10px;
+    margin:2px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.registrazione img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left:0px;
+}
+
+.registrazione span{
+    font-size: 14px;
+    color:#1C325F;
+    
+}
+.registrazione >span> a{
+    text-decoration: underline;
+    color:rgb(60, 136, 180);
+}
