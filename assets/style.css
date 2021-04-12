@@ -11,14 +11,12 @@
 
 /* nav bar iniziale */
 
-nav{
-    display: flex;
+.navbar{
+    display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
-
 }
 
 .logo{
@@ -144,9 +142,7 @@ li i{
 
 /* partners */
 .partners_block{
-    
-    width: 100%;
-    background-color:rgb(233, 216, 216);
+    background-color:#F3F5F9;
     text-align: center;
 }
 
@@ -183,49 +179,43 @@ li i{
 }
 .titoli p{
     font-size:20px ;
-    color:rgb(78, 78, 218);
+    color:#5C6A88;
     margin-top:20px;
     margin-bottom: 40px;
     line-height: 30px;
 }
 
-.block_function{
-    display: flex;
-    flex-direction: row;
-}
+/* blocco funzioni con lista */
 
 .list{
-    align-items: flex-start;
-    width: 30%;
     border-left: 1px solid rgb(78, 78, 218) ;
-    
 }
 
 .list li{
     list-style: none;
     padding: 15px;
-    color:rgb(78, 78, 218) ;
+    color:#5C6A88;
 }
 
 .img_block{
-    display:flex;
-    flex-direction:column;
-    
-}
-.function_img{
-    height: 40px;
-    width: 40px;
+   
+   padding-right: 20px;
 }
 
-.img_block h3{
-    margin-top: 15px;
+
+.img_block h4{
+    margin-top: 10px;
     margin-bottom: 10px;
+    font-weight:bold;
+    color: #031C4E;
 }
 
 .img_block p{
     margin-top: 2px;
     margin-bottom: 35px;
+    color:#5C6A88;
 }
+
 
 
 
