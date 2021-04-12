@@ -188,7 +188,7 @@ li i{
 /* blocco funzioni con lista */
 
 .list{
-    border-left: 1px solid rgb(78, 78, 218) ;
+    border-left: 1px solid #5C6A88; ;
 }
 
 .list li{
@@ -196,7 +196,7 @@ li i{
     padding: 15px;
     color:#5C6A88;
 }
-
+/* blocchi(tabella) con immagini e descrizioni */
 .img_block{
    
    padding-right: 20px;
@@ -214,6 +214,31 @@ li i{
     margin-top: 2px;
     margin-bottom: 35px;
     color:#5C6A88;
+}
+
+.grey{
+    background-color:#F3F5F9;
+    
+    text-align: center;
+    padding-top: 40px;
+}
+
+.example{
+    display: flex;
+    align-items: center;
+
+}
+.slide{
+    width: 580px;
+    height: 400px;
+}
+
+.arrow{
+    font-size: 40px;
+    color:#6F7B97;
+}
+.example .fa-chevron-right {
+    color:#031C4E;;
 }
 
 
